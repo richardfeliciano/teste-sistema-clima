@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background: url(/img/back.jpg) ;
+    background-size: cover;
+}
+
+.card {
+    background-color: #ffffff3d;
+    background-clip: border-box;
+    border: 1px solid rgb(255 255 255 / 0%);
+    border-radius: 1rem;
+    padding: 40px 40px 40px 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.pl-15 {
+ padding-left:15px;
+}
+.pr-15 {
+ padding-right:15px;
+}
+.mt-negative {
+    margin-top: -50px
+}
