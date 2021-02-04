@@ -21,7 +21,7 @@ class ForecastController extends Controller
         }
 
         if ($forecast === 'cold') {
-            return $this->forecast->getMostWarmCites();
+            return $this->forecast->getMostColdCites();
         }
 
         return response(['msg' => 'not found'], 404);
