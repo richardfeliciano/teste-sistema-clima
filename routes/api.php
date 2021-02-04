@@ -15,3 +15,4 @@ use Illuminate\Http\Request;
 
 Route::get('/weather/days', 'ForecastController@days');
 Route::get('/weather/cities/{forecast}', 'ForecastController@cities');
+Route::get('/city', 'CityController@index');

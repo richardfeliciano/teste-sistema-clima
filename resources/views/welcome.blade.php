@@ -22,58 +22,7 @@
                         <forecast-cities forecast="cold"/>
                     </div>
                 </div>
-                <div class="row mt-40">
-                    <div class="col-md-12">
-                        <input type="text" >
-                    </div>
-                </div>
-                <div class="row justify-content-between pl-15 pr-15 mb-40">
-                        <div class="card col-md-2 mt-40">
-                            <div class="header">
-                                Terça
-                                <div>
-                                    12/12/20121
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card col-md-2 mt-40">
-                            <div class="header">
-                                Terça
-                                <div>
-                                    12/12/20121
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card col-md-2 mt-40">
-                            <div class="header">
-                                Terça
-                                <div>
-                                    12/12/20121
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card col-md-2 mt-40">
-                            <div class="header">
-                                Terça
-                                <div>
-                                    12/12/20121
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card col-md-2 mt-40">
-                            <div class="header">
-                                Terça
-                                <div>
-                                    12/12/20121
-                                </div>
-                            </div>
-                        </div>
-
-                </div>
+                <forecast-days />
             </div>
         </div>
         <script src="{{ url('js/app.js') }}"></script>

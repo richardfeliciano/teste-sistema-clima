@@ -27,8 +27,9 @@ class ForecastController extends Controller
         return response(['msg' => 'not found'], 404);
     }
 
-    public function days()
+    public function days(Request $request)
     {
-        return $this->forecast->getNextSevenDaysForeCast();
+        $city = $request->city;
+        return $this->forecast->getNextSevenDaysForeCast($city);
     }
 }

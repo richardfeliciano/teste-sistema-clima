@@ -29,7 +29,7 @@ class ForecastRepository
         return $this->model
             ->with(['city', 'city.state'])
             ->whereDate('data_previsao', Carbon::now())
-            ->orderBy('temperatura_minima')
+            ->orderBy('temperatura_maxima')
             ->take(3)
             ->get();
     }
@@ -45,7 +45,7 @@ class ForecastRepository
                 $now->format('Y-m-d H:i:s'),
                 $now->addDays(7)->format('Y-m-d H:i:s')
             ])
-            ->orderBy('temperatura_minima')
+            ->orderBy('data_previsao')
             ->get();
     }
 }

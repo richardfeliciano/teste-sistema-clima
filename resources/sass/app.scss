@@ -7,6 +7,8 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+@import "vue-select/src/scss/vue-select.scss";
+
 body {
     background: url(/img/back.jpg) ;
     background-size: cover;
@@ -17,7 +19,7 @@ body {
     background-clip: border-box;
     border: 1px solid rgb(255 255 255 / 0%);
     border-radius: 1rem;
-    padding: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
 }
 
 .mt-40 {
@@ -35,4 +37,7 @@ body {
 }
 .mt-negative {
     margin-top: -50px
+}
+.v-select {
+    background: #fff;
 }
