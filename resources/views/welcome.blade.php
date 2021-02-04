@@ -16,24 +16,10 @@
                 </div>
                 <div class="row mt-negative">
                     <div class="col-md-6  mt-40">
-                        <div class="card pb-0">
-                            <table class="table">
-                                <tr> 
-                                    <td>Cidades mais quentes hoje</td>
-                                    <td></td>
-                                </tr>
-
-                                    <tr>
-                                        <td>Cidade UF</td>
-                                        <td class="text-right">23º</td>
-                                    </tr>
-                            </table>
-                        </div>
+                        <forecast-cities/>
                     </div>
                     <div class="col-md-6  mt-40">
-                        <div class="card pb-0">
-                            da
-                        </div>
+                        <forecast-cities forecast="cold"/>
                     </div>
                 </div>
                 <div class="row mt-40">
@@ -90,5 +76,6 @@
                 </div>
             </div>
         </div>
+        <script src="{{ url('js/app.js') }}"></script>
     </body>
 </html>
